@@ -1,0 +1,4 @@
+irclib
+======
+
+Java IRC Library
