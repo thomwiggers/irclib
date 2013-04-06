@@ -22,4 +22,8 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
+  
+  <description>Java IRC Library.
+Mostly started as an exercise to try out Test-Driven Development.</description>
+  <inceptionYear>2013</inceptionYear>
 </project>
