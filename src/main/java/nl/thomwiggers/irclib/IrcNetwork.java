@@ -40,7 +40,7 @@ public class IrcNetwork {
 	this.name = name;
 
 	BasicConfigurator.configure();
-	log.info("Defaulted to stdout logging. See doc/logging.txt for how to use configurable logging");
+	log.info("Defaulting to stdout logging. See doc/logging.txt for how to use configurable logging");
     }
 
     /**
@@ -54,6 +54,7 @@ public class IrcNetwork {
 	this.name = name;
 
 	PropertyConfigurator.configure(logSettings);
+	log.info("Loading log configuration");
     }
 
     /*
